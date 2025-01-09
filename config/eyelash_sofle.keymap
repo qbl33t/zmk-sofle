@@ -62,11 +62,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE     &trans     &trans    &trans    &trans                &trans                   &mmv MOVE_UP     &trans     &trans         &trans     &kp MINUS  &kp EQUAL  &trans
-&trans        &trans     &trans    &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &trans     &trans         &kp MINUS  &kp EQUAL  &trans     &trans
-&kp CAPSLOCK  &trans     &trans    &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE          &mmv MOVE_LEFT   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp SLASH  &trans
-&kp LSHIFT    &trans     &trans    &trans    &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &mmv MOVE_RIGHT  &trans     &trans         &kp SEMI   &kp APOS   &trans     &trans
-&kp C_MUTE    &kp LCTRL  &kp LALT  &kp LGUI  &kp LGUI              &kp SPACE                &mkp LCLK        &kp ENTER  &kp BACKSPACE  &trans     &trans     &trans
+&kp GRAVE     &trans     &trans          &trans        &trans                &trans                   &mmv MOVE_UP     &trans     &trans         &trans     &kp MINUS  &kp EQUAL  &trans
+&trans        &trans     &trans          &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &trans     &trans         &kp MINUS  &kp EQUAL  &trans     &trans
+&kp CAPSLOCK  &trans     &mkp LCLK       &mkp RCLK     &kp LEFT_BRACE        &kp RIGHT_BRACE          &mmv MOVE_LEFT   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp SLASH  &trans
+&kp LSHIFT    &trans     &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &mmv MOVE_RIGHT  &trans     &trans         &kp SEMI   &kp APOS   &trans     &trans
+&kp C_MUTE    &kp LCTRL  &kp LALT        &kp LGUI      &kp LGUI              &kp SPACE                &mkp LCLK        &kp ENTER  &kp BACKSPACE  &trans     &trans     &trans
             >;
 
             display-name = "layer1";
