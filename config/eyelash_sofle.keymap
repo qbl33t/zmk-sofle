@@ -63,11 +63,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE     &trans     &trans          &trans        &trans                &trans                   &mmv MOVE_UP     &trans     &trans         &trans     &kp MINUS  &kp EQUAL  &trans
-&trans        &trans     &trans          &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &trans     &trans         &kp MINUS  &kp EQUAL  &trans     &trans
-&kp CAPSLOCK  &trans     &mkp LCLK       &mkp RCLK     &kp LEFT_BRACE        &kp RIGHT_BRACE          &mmv MOVE_LEFT   &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp SLASH  &trans
-&kp LSHIFT    &trans     &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &mmv MOVE_RIGHT  &trans     &trans         &kp SEMI   &kp APOS   &trans     &trans
-&kp C_MUTE    &kp LCTRL  &kp LALT        &kp LGUI      &kp LGUI              &kp SPACE                &mkp LCLK        &kp ENTER  &kp BACKSPACE  &trans     &trans     &trans
+&kp GRAVE     &trans     &trans          &trans        &trans                &trans                   &mmv MOVE_UP     &trans            &trans             &trans     &kp MINUS  &kp EQUAL  &trans
+&trans        &trans     &trans          &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &trans            &trans             &kp MINUS  &kp EQUAL  &trans     &trans
+&kp CAPSLOCK  &trans     &mkp LCLK       &mkp RCLK     &kp LEFT_BRACE        &kp RIGHT_BRACE          &mmv MOVE_LEFT   &kp LEFT          &kp DOWN           &kp UP     &kp RIGHT  &kp SLASH  &trans
+&kp LSHIFT    &trans     &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp APOS   &trans     &trans
+&kp C_MUTE    &kp LCTRL  &kp LALT        &kp LGUI      &kp LGUI              &kp SPACE                &mkp LCLK        &kp ENTER         &kp DELETE         &trans     &trans     &trans
             >;
 
             display-name = "layer1";
@@ -76,11 +76,11 @@
 
         layer_2 {
             bindings = <
-&none         &kp F1     &kp F2    &kp F3       &kp F4  &kp F5       &mmv MOVE_UP     &kp F6        &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
-&none         &none      &none     &trans       &trans  &trans       &mmv MOVE_DOWN   &trans        &trans          &none         &none            &none    &kp F12
-&kp CAPSLOCK  &none      &none     &trans       &trans  &trans       &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none    &none
-&kp LSHFT     &none      &none     &bootloader  &trans  &trans       &mmv MOVE_RIGHT  &kp C_VOL_DN  &kp C_NEXT      &kp K_MUTE    &kp C_VOLUME_UP  &none    &trans
-&trans        &kp LCTRL  &kp LALT  &kp LGUI     &mo 3   &kp SPACE    &mkp LCLK        &kp ENTER     &kp BACKSPACE   &trans        &trans           &trans
+&none         &kp F1     &kp F2    &kp F3    &kp F4  &kp F5       &mmv MOVE_UP     &kp F6        &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
+&none         &none      &none     &trans    &trans  &trans       &mmv MOVE_DOWN   &trans        &trans          &none         &none            &none    &kp F12
+&kp CAPSLOCK  &none      &none     &trans    &trans  &trans       &mmv MOVE_LEFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &none    &none
+&kp LSHFT     &none      &none     &none     &trans  &trans       &mmv MOVE_RIGHT  &kp C_VOL_DN  &kp C_NEXT      &kp K_MUTE    &kp C_VOLUME_UP  &none    &trans
+&trans        &kp LCTRL  &kp LALT  &kp LGUI  &mo 3   &kp SPACE    &mkp LCLK        &kp ENTER     &kp BACKSPACE   &trans        &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
